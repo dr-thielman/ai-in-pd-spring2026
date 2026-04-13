@@ -1,0 +1,32 @@
+RIDGELINE ENGINEERING PARTNERS — PROPOSAL DEVELOPMENT GUIDE
+Revision 5, Updated August 2024
+Maintained by: David Okonkwo, Partner
+
+This guide provides the standard framework for developing client proposals. All proposals must follow this format unless the client's RFP specifies a different structure.
+
+PROPOSAL STRUCTURE
+
+Section 1: Executive Summary (1 page max)
+Concise statement of the client's problem, Ridgeline's proposed approach, and the key benefit to the client. Written last but placed first. Avoid technical jargon.
+
+Section 2: Understanding of the Problem (1-2 pages)
+Demonstrate that Ridgeline understands the client's situation, constraints, and objectives. Reference any prior work with the client. Identify the key engineering questions that must be answered.
+
+Section 3: Technical Approach (2-4 pages)
+Detailed description of the proposed methodology, analysis tools, and deliverables. Include the standards and codes that will govern the work. Identify assumptions and limitations. If applicable, reference similar projects Ridgeline has completed.
+
+Section 4: Project Team (1 page)
+Brief bios of the proposed Project Manager and key technical staff. Include relevant PE licenses, advanced degrees, and directly relevant project experience.
+
+Section 5: Schedule and Milestones (1 page)
+Gantt chart or milestone table showing major deliverables and review points. Include a kickoff meeting within the first week and interim progress reviews at minimum 30-day intervals.
+
+Section 6: Fee Proposal (1 page)
+Presented as time-and-materials with a not-to-exceed cap, unless the client requests fixed-price. Reference the current billing rate schedule (see DOC-014). Include estimated hours by role and a 10% contingency line item for unforeseen scope. All proposals over $100,000 require Partner review before submission.
+
+APPROVAL REQUIREMENTS
+Proposals under $50,000: PM approval
+Proposals $50,000 - $100,000: Practice Group Lead approval
+Proposals over $100,000: Partner approval
+
+Average proposal win rate for FY 2024: 34% (42 wins out of 124 proposals submitted). Target for FY 2025: 38%.

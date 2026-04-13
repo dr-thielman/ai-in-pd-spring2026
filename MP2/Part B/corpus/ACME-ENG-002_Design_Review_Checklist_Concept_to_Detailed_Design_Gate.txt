@@ -1,0 +1,66 @@
+DESIGN REVIEW CHECKLIST
+Gate: Concept → Detailed Design
+Document: ACME-ENG-002 Rev A
+Author: Jordan Chen, Engineering Manager
+Date: October 15, 2025
+
+PURPOSE
+This checklist must be completed before a design enters the detailed design phase. All items must be green or have an approved waiver before proceeding. The goal is to catch fundamental issues early — before we invest detailed design and prototyping resources.
+
+CHECKLIST
+
+1. REQUIREMENTS DOCUMENT
+[ ] All functional requirements documented
+[ ] Each requirement is traceable to a customer, marketing, or engineering need
+[ ] Each requirement is measurable and testable
+[ ] Requirements reviewed by stakeholders (marketing, fab team, engineering lead)
+
+2. MATERIAL SELECTION
+[ ] Material choice documented with rationale
+[ ] Material strength data from ACME testing (not internet generic values)
+[ ] Cost and availability confirmed with supply chain
+[ ] Material compatible with manufacturing process
+
+3. STRESS ANALYSIS — CRITICAL COMPONENTS
+[ ] Lewis bending stress for all gears (using ACME derating factors from ACME-ENG-001)
+[ ] Cantilever stress for snap-fits
+[ ] Pin shear analysis for pivot joints
+[ ] All safety factors >= 2.0 for printed parts
+
+4. TOLERANCE ANALYSIS
+[ ] Gear mesh center distance tolerance stack-up
+[ ] Jaw alignment tolerance stack-up (for grippers)
+[ ] Pin-hole fit analysis
+[ ] Method documented: worst-case for prototypes, RSS for production (see ACME-ENG-003)
+
+5. DFM REVIEW
+[ ] Print orientation specified for all parts
+[ ] Support requirements identified
+[ ] Build time estimated per part
+[ ] Multi-part assembly fit verified (digital or physical mockup)
+[ ] Reviewed with fab team (Maria Santos or designee)
+
+6. PROTOTYPE PLAN
+[ ] Number of prototype iterations planned (minimum 2 rounds before production release)
+[ ] Test plan for each prototype round
+[ ] Iteration schedule fits within project timeline
+
+7. COST ESTIMATE
+[ ] Material cost per unit calculated
+[ ] Print time per unit estimated (valued at $2.50/hr machine time)
+[ ] Assembly labor estimated (valued at $20/hr)
+[ ] Packaging cost included
+[ ] Total unit cost within budget target
+
+8. RISK REGISTER
+[ ] Top 3 technical risks identified
+[ ] Mitigation plan for each risk
+[ ] Risk owner assigned
+
+GATE DECISION
+[ ] PROCEED — all items green
+[ ] PROCEED WITH WAIVERS — waiver items documented and accepted by Engineering Manager
+[ ] RETURN TO CONCEPT — critical gaps require rework before detailed design
+
+Reviewed by: _________________ Date: _________
+Engineering Manager: _________ Date: _________

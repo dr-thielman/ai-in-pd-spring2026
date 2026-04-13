@@ -1,0 +1,19 @@
+PROJECT SUMMARY REPORT
+Project: CardioSense Wearable Monitor Enclosure Design
+Project Number: REP-2024-031
+Client: NovaMed Devices, Inc.
+Project Manager: Angela Cruz, PE
+Date Completed: June 2024
+Budget: $310,000 | Actual: $298,500
+
+BACKGROUND
+NovaMed Devices engaged Ridgeline to design the enclosure for the CardioSense CS-400, a next-generation wearable cardiac rhythm monitor intended for continuous 14-day patient wear. The device houses a custom ASIC, a 3-axis accelerometer, a rechargeable lithium polymer battery (450 mAh), and flexible electrode leads. The enclosure must protect sensitive electronics while being comfortable for extended skin contact.
+
+DESIGN REQUIREMENTS
+The primary design challenges centered on environmental protection and biocompatibility. The enclosure was required to achieve an IP67 rating (dust-tight and protected against temporary immersion in water up to 1m for 30 minutes), as patients must be able to shower while wearing the device. Additionally, all external surfaces required biocompatibility per ISO 10993 for prolonged skin contact. Maximum enclosure dimensions were constrained to 62mm x 42mm x 11mm, and total weight including electronics could not exceed 28 grams.
+
+MATERIAL SELECTION AND DESIGN
+After evaluating six candidate materials, Ridgeline selected glass-filled nylon PA66-GF30 for the enclosure body. This material provides the required mechanical strength (tensile strength 185 MPa), dimensional stability, and chemical resistance while meeting the weight target. The glass-filled nylon also offers excellent moldability for the thin-wall sections (minimum wall thickness 0.8mm) required by the size constraint. The sealing system uses a liquid silicone rubber (LSR) gasket in a precision-molded groove, achieving the IP67 rating with a safety margin validated to IP68 conditions (1.5m for 60 minutes). Surface finish is SPI-B2 (matte) to minimize skin irritation.
+
+VERIFICATION
+Twelve prototype units were manufactured via injection molding at a contract manufacturer in Shenzhen. Environmental testing confirmed IP67 compliance across all units. Drop testing from 1.5m onto concrete showed no cracking or seal failure. Biocompatibility testing per ISO 10993-5 (cytotoxicity) and ISO 10993-10 (skin sensitization) passed with no adverse findings.

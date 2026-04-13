@@ -1,0 +1,16 @@
+PROJECT SUMMARY REPORT
+Project: Greenfield Plaza HVAC System Optimization
+Project Number: REP-2023-089
+Client: Greenfield Properties LLC
+Project Manager: Mark Jensen, PE
+Date Completed: November 2023
+Budget: $175,000 | Actual: $168,300
+
+BACKGROUND
+Greenfield Properties engaged Ridgeline to optimize the HVAC system in the Greenfield Plaza, a 120,000 sq ft Class A office building in downtown Portland constructed in 2004. The building's original HVAC system — four Trane RTAC 200-ton air-cooled chillers and 24 variable air volume (VAV) air handling units — was consuming significantly more energy than comparable buildings, with an Energy Use Intensity (EUI) of 142 kBtu/sq ft/yr compared to the ASHRAE 90.1-2019 baseline of 95 kBtu/sq ft/yr for the climate zone.
+
+ANALYSIS AND FINDINGS
+Ridgeline performed a comprehensive energy audit including sub-metering of major equipment, thermal imaging of the building envelope, and occupancy pattern analysis. Key findings included: (1) two of the four chillers were operating below 60% of rated efficiency due to refrigerant undercharge and fouled condenser coils; (2) the building automation system (BAS) scheduling had not been updated since 2012 and did not reflect current tenant occupancy patterns; (3) the economizer dampers on 8 of the 24 AHUs were stuck in the minimum position, eliminating free cooling capability during mild weather.
+
+RECOMMENDATIONS AND RESULTS
+Ridgeline implemented a phased optimization: Phase 1 addressed the chiller maintenance and economizer repairs (completed in 6 weeks). Phase 2 reprogrammed the BAS with updated schedules and optimal start algorithms. Phase 3 replaced the original constant-speed condenser fans with variable frequency drives. The combined effect reduced the building's EUI from 142 to 98 kBtu/sq ft/yr — a 31% reduction in energy consumption. Projected annual energy cost savings are $127,000, yielding a simple payback period of 1.3 years on the $168,300 project investment.

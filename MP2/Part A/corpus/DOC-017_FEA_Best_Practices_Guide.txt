@@ -1,0 +1,31 @@
+RIDGELINE ENGINEERING PARTNERS — FEA BEST PRACTICES GUIDE
+Document Number: ENG-FEA-BP-01, Revision 4
+Effective Date: April 2024
+Author: Dr. Sarah Hendricks, PE, PhD
+Approved by: Brian Tanaka, PE, Director of Engineering
+
+This guide establishes minimum requirements for finite element analysis performed at Ridgeline. All FEA work must comply with these practices regardless of software platform (ANSYS, Abaqus, NASTRAN, CSiBridge, COMSOL, etc.).
+
+1. MODEL PLANNING
+Before constructing any FEA model, the analyst must prepare a brief analysis plan documenting: (a) the specific engineering questions the model must answer, (b) the expected failure modes or design-limiting conditions, (c) the level of modeling fidelity required (1D beam, 2D shell, 3D solid, or mixed), and (d) the acceptance criteria or code requirements that will be checked.
+
+2. MESH QUALITY AND CONVERGENCE
+All FEA models must include a mesh convergence study with a minimum of three refinement levels. The analyst must demonstrate that the key result (stress, displacement, temperature, etc.) changes by less than 5% between the second and third refinement levels. Results from the converged mesh are reported. If convergence is not achieved in three levels, additional refinement is required. The mesh convergence study must be documented in the analysis report, including a table or plot showing the key result vs. mesh density for each refinement level.
+
+Element quality metrics must meet the following minimums:
+- Aspect ratio: < 5:1 for regions of interest, < 10:1 elsewhere
+- Jacobian ratio: > 0.5 for all elements
+- Warpage: < 15 degrees for shell elements
+- Skewness: < 0.8 for tetrahedral elements
+
+3. BOUNDARY CONDITIONS
+All boundary conditions must be justified in the analysis report. Symmetric and antisymmetric boundary conditions should be used where applicable to reduce model size. Support conditions must reflect actual hardware (e.g., bolted connections modeled with contact, not fixed nodes). Applied loads must be traceable to the design basis.
+
+4. MATERIAL PROPERTIES
+Material properties must be sourced from approved references (see DOC-010 Technical Standards Guide). For temperature-dependent analyses, properties must be specified at the appropriate temperature. Nonlinear material models (plasticity, creep, hyperelasticity) require documented test data or published curves with cited sources.
+
+5. RESULTS INTERPRETATION
+Stress results at singularities (sharp corners, point loads, constraints) must not be reported as design values. Stress linearization per ASME BPVC Section VIII Division 2 is required for pressure vessel analyses. All FEA results must be sanity-checked against hand calculations or known closed-form solutions where available.
+
+6. DOCUMENTATION
+Every FEA analysis must produce a summary sheet including: software and version, element types used, total node/element count, mesh convergence table, boundary condition summary, and key results with plots.

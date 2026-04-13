@@ -1,0 +1,18 @@
+PROJECT SUMMARY REPORT
+Project: Cascade CP-2200 Portable Speaker Thermal Analysis
+Project Number: REP-2024-012
+Client: Cascade Consumer Products
+Project Manager: Mark Jensen, PE
+Date Completed: March 2024
+Budget: $95,000 | Actual: $89,200
+
+BACKGROUND
+Cascade Consumer Products retained Ridgeline to evaluate the thermal performance of their CP-2200 portable Bluetooth speaker, which had experienced field returns due to thermal shutdown during extended outdoor use in direct sunlight. The speaker uses a Class D amplifier rated at 40W RMS that dissipates approximately 8W of heat at maximum output.
+
+ANALYSIS
+Ridgeline constructed a detailed thermal model using FloTHERM, incorporating the amplifier IC, battery pack (4-cell 18650 lithium-ion), PCB, enclosure, and passive radiator. Boundary conditions simulated worst-case outdoor use: 40C ambient temperature, 1000 W/m2 solar radiation on the top surface, and natural convection only (no wind).
+
+The analysis identified that the amplifier junction temperature reached 118C under worst-case conditions, exceeding the 110C thermal shutdown threshold. The primary heat path from the amplifier IC to the enclosure surface was constrained by a 2mm air gap between the PCB and the enclosure wall. Battery temperatures reached 52C, which is within the safe operating range but reduces cycle life.
+
+SOLUTION
+Ridgeline recommended three design modifications: (1) adding a 0.5mm-thick graphite thermal interface pad between the amplifier IC and the enclosure wall, reducing thermal resistance by 62%; (2) increasing the ventilation slot area on the bottom of the enclosure by 40%; and (3) applying a selective high-emissivity coating (emissivity 0.92) to the interior surfaces near the amplifier. With all three modifications, the predicted worst-case junction temperature dropped to 98C, providing a 12C margin below the shutdown threshold. Cascade implemented all three recommendations and eliminated the thermal shutdown returns.

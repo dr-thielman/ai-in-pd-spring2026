@@ -1,0 +1,31 @@
+MARKETING BRIEF: MINICLAW AT ROBOTEXPO 2026
+Prepared by: Sarah Kim, Marketing Director
+Date: February 10, 2026
+
+TARGET AUDIENCE
+RobotExpo attendees skew technical: engineering students (18-25), hobbyist makers (25-45), robotics educators, and STEM program coordinators. These are people who will appreciate the engineering behind the MiniClaw, not just the novelty.
+
+KEY MESSAGING
+Primary tagline: 'Precision engineering in your pocket.'
+The MiniClaw should demonstrate ACME's mechanical engineering capabilities in a fun, tactile, desk-worthy format. Visitors should walk away thinking 'these people really know gears and mechanisms.' The giveaway is a conversation starter and a business card in physical form.
+
+BUDGET
+Material cost target: $3.50 per unit for a 500-unit production run. This includes filament, pins, grip pads, packaging — everything that goes into or around the product. It does NOT include labor or printer amortization (those come from the engineering budget). The $3.50 target is firm — marketing has already committed this number to finance.
+
+VISUAL DESIGN
+Color scheme: Company Blue PLA (Pantone 2935 C) for the body and exterior-visible parts. Natural White PLA for internal gears — this creates a nice visual contrast when the mechanism is visible, and white PLA is cheaper than custom colors.
+
+ACME logo: must be embossed or engraved on at least one externally visible surface. Minimum logo width: 15 mm. The logo should be readable without squinting.
+
+PACKAGING
+Individual poly bag with a fold-over header card. One side of the header card: ACME branding and tagline. Other side: simple assembly/use instructions (if any assembly is required by the end user — ideally the MiniClaw is pre-assembled).
+
+DISTRIBUTION PLAN
+Total production: 500 units
+- 100 units for Day 1 keynote giveaway (handed out at the door)
+- 200 units for booth visitors (Days 1-3, given to people who engage with our demo)
+- 200 units reserve for VIP gift bags and post-event mailing to prospects
+
+IMPORTANT: The MiniClaw is not just a toy. It is a marketing asset that represents ACME's engineering brand. Quality matters more than cost savings. A gripper that jams or feels cheap does more harm than not having a giveaway at all.
+
+Questions? Contact Sarah Kim, Marketing.

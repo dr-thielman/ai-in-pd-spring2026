@@ -1,0 +1,44 @@
+ASSEMBLY GUIDELINES FOR 3D PRINTED PRODUCTS
+Document: ACME-MFG-004 Rev B
+Author: Maria Santos, Fab Team Lead
+Date: December 1, 2025
+
+These guidelines apply to all ACME products assembled from 3D printed PLA/PETG parts. Refer to this document when designing parts for production assembly.
+
+SNAP-FIT DESIGN RULES
+- Cantilever snap-fits: minimum cantilever length 8 mm for PLA
+- Maximum deflection: 1.5 mm at engagement for PLA (beyond this, risk of cracking during assembly)
+- Include a 45-degree lead-in chamfer on the hook to reduce assembly force
+- Design for one-time assembly unless specifically designed as removable (different geometry needed)
+
+PRESS-FIT RECOMMENDATIONS
+For PLA press-fits on our Prusa MK4S printers:
+- Structural connections: 0.10-0.15 mm interference
+- Alignment-only fits: 0.05-0.08 mm interference
+- Always test press-fits on a minimum of 5 samples before committing to production dimensions — printer calibration drift can shift fits from tight to loose
+
+PIN DESIGN
+Minimum pin diameters for printed pins:
+- Structural pins (load-bearing pivots, axles): 2.5 mm minimum
+- Alignment-only pins (locating features, non-load-bearing): 2.0 mm minimum
+Below 2.0 mm, pins become too fragile for production handling — they snap during assembly or shipping. If you need a pin smaller than 2.0 mm, use brass pin stock from our component library instead of printing it.
+
+PRINT ORIENTATION GUIDELINES
+- Gears: flat on build plate (axis perpendicular to plate). This puts tooth bending loads across the full face width of interlayer bonds.
+- Living hinges: print along layer lines so the hinge flexes with the layers, not against them.
+- Snap-fits: print upright so the cantilever deflects along layers, not across them.
+- Housings: orient so that critical fit surfaces (bearing bores, gear mesh pockets) are on the top face for best accuracy.
+
+ASSEMBLY TIME
+Target: under 10 minutes per unit for production assembly. Our experience with WidgetBot 2.0 (11 parts, 7 minutes average) and GripperBot kit (14 parts, 9 minutes average) shows this is achievable with good design.
+
+RECOMMENDED TOOLS FOR ASSEMBLY LINE
+- Flush cutters (support removal)
+- 2 mm hex driver
+- Small needle-nose pliers
+- Soft rubber mallet (for press-fits)
+
+COLOR CODING
+For products with more than 8 parts, use contrasting filament colors for parts that could be assembled incorrectly. This reduces assembly errors and speeds up visual QC inspection.
+
+Questions about assembly design? Schedule a DFM review with the fab team before finalizing your design.

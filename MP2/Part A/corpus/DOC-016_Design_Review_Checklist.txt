@@ -1,0 +1,46 @@
+RIDGELINE ENGINEERING PARTNERS — DESIGN REVIEW CHECKLIST
+Form Number: ENG-DR-01, Revision 7
+Effective Date: June 2024
+Maintained by: Brian Tanaka, PE, Director of Engineering
+
+This checklist is required for all design deliverables before client submission. The reviewing engineer must be a Senior Engineer I or above and must not have been involved in the original design work.
+
+GENERAL REQUIREMENTS
+[ ] Project number and title correctly identified on all deliverables
+[ ] Client name and contact verified
+[ ] Applicable codes and standards identified and correct edition used
+[ ] Design basis document reviewed and requirements traced
+[ ] All assumptions documented and justified
+[ ] Units consistent throughout (SI or US Customary, not mixed)
+
+ANALYSIS VERIFICATION
+[ ] Input data verified against source documents
+[ ] Boundary conditions reviewed for appropriateness
+[ ] Material properties sourced from approved references
+[ ] Load combinations per applicable code
+[ ] Independent hand calculation performed for critical results
+[ ] FEA mesh convergence study documented (if applicable)
+[ ] Results checked for physical reasonableness
+[ ] Safety factors or rating factors reported and assessed
+
+DRAWINGS AND MODELS
+[ ] GD&T per ASME Y14.5-2018
+[ ] Tolerances achievable by specified manufacturing process
+[ ] Material specifications called out correctly
+[ ] Surface finish requirements specified where needed
+[ ] All views necessary for fabrication included
+[ ] CAD model matches drawings (no undocumented changes)
+
+REPORT QUALITY
+[ ] Executive summary present and accurate
+[ ] Methodology clearly described
+[ ] All figures and tables numbered and captioned
+[ ] References complete and properly cited
+[ ] Conclusions supported by analysis results
+[ ] Recommendations actionable and prioritized
+[ ] Spell check and grammar review completed
+
+SIGN-OFF
+Reviewing Engineer: _____________ Date: _______
+Project Manager: _______________ Date: _______
+Any 'fail' item must be resolved and re-reviewed before submission.

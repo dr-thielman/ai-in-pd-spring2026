@@ -1,0 +1,32 @@
+RIDGELINE ENGINEERING PARTNERS — TOLERANCE ANALYSIS PROCEDURE
+Document Number: ENG-TOL-01, Revision 3
+Effective Date: February 2024
+Author: Angela Cruz, PE, Mechanical Design Group Lead
+
+This procedure defines Ridgeline's standard approach for performing dimensional tolerance analysis on mechanical assemblies.
+
+1. SCOPE
+This procedure applies to all mechanical design projects where dimensional variation affects form, fit, or function. Tolerance analysis is mandatory for: (a) assemblies with more than 5 contributing dimensions, (b) assemblies with clearance or interference fits, (c) medical device components subject to design controls, and (d) any assembly where the client specifies a Cpk requirement.
+
+2. ANALYSIS METHODS
+
+2.1 Worst-Case Analysis
+Sum of all tolerances at their extreme limits. Guarantees 100% interchangeability but results in overly tight individual tolerances. Required for safety-critical assemblies and when production volumes are below 500 units.
+
+2.2 RSS (Root Sum of Squares) Analysis
+Statistical method assuming normally distributed, independent dimensional variations. Provides approximately 99.73% (3-sigma) assembly yield when all inputs are centered at nominal. Appropriate for production volumes above 500 units.
+
+2.3 Monte Carlo Simulation
+Numerical simulation using 10,000+ random samples drawn from actual or assumed distributions. Required for non-normal distributions, assemblies with more than 8 contributing dimensions, and cases where Cpk targets must be predicted. Ridgeline uses Crystal Ball or custom Python scripts for Monte Carlo analysis.
+
+3. REQUIRED OUTPUTS
+All tolerance analyses must produce:
+- Dimension chain diagram (1D or 2D as appropriate)
+- Nominal gap/interference calculation
+- Worst-case min/max assembly dimensions
+- Statistical assembly distribution (if RSS or Monte Carlo used)
+- Predicted yield or Cpk at the assembly level
+- Sensitivity ranking: which individual tolerances contribute most
+
+4. GD&T COMPLIANCE
+All tolerances referenced in the analysis must conform to ASME Y14.5-2018. Geometric tolerances (flatness, parallelism, position, etc.) must be converted to equivalent bilateral linear tolerances for the stack-up calculation using the methods described in the ASME Y14.5 standard and Bryan Fischer's 'Mechanical Tolerance Stackup and Analysis' (2nd edition, CRC Press, 2011).

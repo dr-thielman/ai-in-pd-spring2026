@@ -1,0 +1,37 @@
+PRODUCT SPECIFICATION: GRIPPERBOT
+Document: ACME-PROD-002
+Author: Lisa Chang, Product Engineering Manager
+Date: March 20, 2025
+
+PRODUCT OVERVIEW
+GripperBot is an educational servo-driven gripper kit designed for STEM programs and hobby robotics. Unlike the MiniClaw (which is a promotional giveaway), GripperBot is a sold product in ACME's education line.
+
+KEY SPECIFICATIONS
+- Jaw opening range: 0-60 mm
+- Clamping force: 8 N at 25 mm jaw opening
+- Servo: standard 9g micro servo, 1.8 kg-cm stall torque
+- Material: injection-molded ABS (not 3D printed)
+- Weight: 45 g without servo
+- Part count: 9 pieces plus servo and fasteners
+
+LINKAGE DESIGN
+GripperBot uses a 4-bar linkage mechanism:
+- Crank arm (servo output): 25 mm
+- Coupler link: 40 mm
+- Output link (jaw arm): 35 mm
+- Ground link (housing pivot spacing): 30 mm
+The linkage was optimized for near-linear force output through the middle 70% of jaw travel. At the extremes of travel, there is some non-linearity, but customer feedback has been positive on the feel.
+
+CLAMPING FORCE MEASUREMENT
+Standard test method: close jaws on a spring-loaded force gauge positioned at 25 mm opening width. Record peak force as jaws close to contact. This is our standard method for all gripper products — use this same protocol for MiniClaw testing.
+
+LESSONS LEARNED (RELEVANT TO MINICLAW)
+1. JAW ALIGNMENT: Jaw alignment is critical. Even 0.5 mm misalignment between the left and right jaws causes uneven gripping and was our top customer complaint in GripperBot v1. Solution: alignment pins on jaw arms and tight tolerance on the housing pivot bores.
+
+2. LINKAGE PIVOTS: Pivot points need either low-friction bushings or generous clearance. For 3D printed versions, we recommend 0.2 mm radial clearance at pivot joints rather than trying to achieve bushing-quality fits.
+
+3. FORCE FEEL: Users prefer a linear force-displacement relationship. Avoid toggle-style linkages that snap closed — they feel cheap and can pinch fingers. A well-designed 4-bar with a near-constant mechanical advantage through mid-travel gives the best user experience.
+
+4. JAW GRIP: Smooth jaw surfaces slip on objects. We added silicone grip pads (from our component library) to the jaw faces, which improved grip force by approximately 40% without increasing mechanism force.
+
+The GripperBot design files and test data are available on the engineering shared drive. MiniClaw designers should review the linkage analysis in particular.

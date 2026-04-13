@@ -1,0 +1,34 @@
+ACME ROBOTICS COMPONENT LIBRARY — Q1 2026
+Maintained by: Supply Chain Team
+Last updated: January 5, 2026
+
+The following standard components are stocked in the ACME parts room. These items are manufactured in-house or pre-purchased in bulk. Available for any project without purchase requisition.
+
+METAL PIN STOCK
+- Brass pin stock, 2.0 mm diameter x 100 mm length — 500+ pcs
+- Brass pin stock, 2.5 mm diameter x 100 mm length — 500+ pcs
+- Brass pin stock, 3.0 mm diameter x 100 mm length — 300+ pcs
+- Stainless steel dowel pins, 2.0 mm x 10 mm — 200 pcs
+- Stainless steel dowel pins, 2.5 mm x 12 mm — 200 pcs
+- Stainless steel dowel pins, 3.0 mm x 15 mm — 150 pcs
+
+SPRING WIRE & SPRINGS
+- Stainless steel spring wire, 0.5 mm diameter — 50 m spool
+- Stainless steel spring wire, 0.8 mm diameter — 50 m spool
+- Compression springs, 5 mm OD x 10 mm free length, 0.3 N/mm rate — 100 pcs
+- Compression springs, 8 mm OD x 15 mm free length, 0.5 N/mm rate — 100 pcs
+
+GRIP & INTERFACE MATERIALS
+- Silicone grip pads, 10 x 10 mm square, 1 mm thick, adhesive-backed — 500+ pcs
+- Silicone grip pads, 15 mm diameter circle, 1.5 mm thick, adhesive-backed — 300+ pcs
+- Rubber O-rings, assorted sizes (see bin labels) — various
+
+THUMB WHEELS & KNOBS
+- Standard thumb wheel blank, 20 mm diameter, 5 mm wide, knurled ABS, black — 200 pcs
+- Standard thumb wheel blank, 25 mm diameter, 6 mm wide, knurled ABS, white — 150 pcs
+These were manufactured for the WidgetBot 2.0 and GripperBot projects. Compatible with 3 mm D-shaft or can be drilled to fit custom shafts.
+
+NOTE FOR MINICLAW DESIGNERS
+The MiniClaw design brief specifies 'no purchased parts except input wheel.' However, items in this catalog are ACME in-house stock, not purchased parts. Engineering should clarify with Jordan Chen whether component library items (particularly brass pins for pivot joints and silicone grip pads for jaw faces) are permitted. Based on WidgetBot 2.0 experience, brass pins significantly improve pivot joint quality and assembly speed compared to printed pins.
+
+To request items, fill out a parts room requisition form or email supply-chain@acme-robotics.internal.

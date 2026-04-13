@@ -1,0 +1,42 @@
+From: Jamie Wu <jamie.wu@filatech-materials.com>
+To: Ryan Cooper <ryan.cooper@acme-robotics.com>
+Date: March 1, 2026
+Subject: Re: Bulk PLA+ pricing for RobotExpo production run
+
+Hi Ryan,
+
+Thanks for reaching out about the RobotExpo production run. Here is our pricing for PolyPro PLA+ in the quantities you are looking at:
+
+STANDARD COLORS (Natural White, Jet Black):
+$18.50 per 1 kg spool
+Availability: in stock, ships within 1 week of PO.
+
+CUSTOM COLOR — Company Blue (Pantone 2935 C):
+$22.00 per 1 kg spool
+Lead time: 3 weeks from PO for color matching and production.
+Minimum order quantity for custom colors: 20 spools (20 kg).
+
+YIELD ESTIMATE
+Based on your estimate of approximately 35 g of PLA per MiniClaw unit (body, gears, linkage, and small parts combined), one 1 kg spool should yield 25-28 complete unit sets, accounting for support material, skirt/brim waste, and occasional failed prints.
+
+For 500 units (plus your 50-unit buffer = 550 units):
+- If all Company Blue: ~22 spools = $484.00
+- If split (Blue body ~25 g + White gears ~10 g per unit): ~14 spools Blue + 6 spools White = 14 x $22.00 + 6 x $18.50 = $419.00
+- Per-unit filament cost (split color option): approximately $0.76/unit
+
+This leaves good margin within your $3.50/unit total material budget for brass pins, packaging materials, grip pads, and other components.
+
+SHIPPING
+Free freight on orders over $300 to your Seattle facility. We ship UPS Ground from our Portland warehouse — typical transit is 1-2 business days.
+
+IMPORTANT — LEAD TIME
+The 3-week lead time for Company Blue starts when we receive the purchase order. If you need Blue filament in hand by early May for your production schedule, the PO should go out no later than mid-April.
+
+Let me know if you would like to place the order or if you need samples of any colors first.
+
+Best,
+Jamie Wu
+Account Manager
+FilaTech Materials
+jamie.wu@filatech-materials.com
+(503) 555-0147

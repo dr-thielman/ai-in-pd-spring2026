@@ -1,0 +1,39 @@
+ACME INTERNAL STANDARD: GEAR DESIGN FOR 3D PRINTED PARTS
+Document: ACME-ENG-001 Rev C
+Author: Kevin Park, Lead Mechanical Engineer
+Date: September 10, 2025
+Approved: Jordan Chen, Engineering Manager
+
+SCOPE
+This standard applies to spur gears printed in PLA or PETG on FDM printers (specifically our Prusa MK4S fleet). It adapts AGMA gear design principles for the unique characteristics of 3D printed polymer gears.
+
+PREFERRED MODULES
+For PLA gears on our printers, the preferred modules are: 0.8, 1.0, and 1.25. Modules smaller than 0.8 produce teeth that are too fine for reliable FDM printing — tooth tips are thinner than two extrusion widths. Modules larger than 1.25 waste space and material for the gear ratios we typically need.
+
+MINIMUM TOOTH COUNT
+Minimum tooth count: 14 teeth for module 1.0 at a 20-degree pressure angle. This avoids undercutting, which severely weakens printed teeth. For module 0.8, the minimum is 16 teeth. For module 1.25, 12 teeth is acceptable but 14 is preferred. Do not use 14.5-degree pressure angle for printed gears — the tooth form is too weak in PLA.
+
+FACE WIDTH
+Minimum face width: 3 times the module for printed gears. For production parts, 4 to 6 times the module is recommended. For module 1.0, this means a minimum of 3 mm and a recommended range of 4-6 mm. Our WidgetBot 2.0 experience confirmed that 4 mm is the practical minimum for module 1.0 gears under repeated loading.
+
+BACKLASH
+Design backlash: 0.10-0.15 mm for PLA gears. This accounts for thermal expansion (PLA CTE is approximately 70 um/m/C) and print dimensional variation. Backlash below 0.10 mm risks binding after thermal cycling. Backlash above 0.15 mm may cause perceptible play.
+
+LEWIS BENDING STRESS — DERATING FOR PRINTED PARTS
+The classical Lewis bending stress equation assumes homogeneous material. Printed gears have interlayer boundaries that act as weak planes. Based on our test data (ACME-MFG-003), gear teeth fail at approximately 60% of the stress predicted using bulk material properties.
+
+To account for this, either:
+(a) Multiply the calculated Lewis stress by 1.67 (= 1/0.60) to get the effective stress on interlayer boundaries, then compare to the interlayer adhesion strength (28 MPa for our PLA+), OR
+(b) Use a safety factor of 2.0 against the bulk tensile strength (52 MPa for our PLA+), which produces equivalent results.
+
+GEAR MESH CENTER DISTANCE
+Theoretical center distance: a = m * (z1 + z2) / 2
+For PLA gears, add 0.05-0.10 mm to the nominal center distance to account for thermal growth and print tolerance. This extra clearance also helps smooth operation.
+
+PRINT ORIENTATION
+Gears must be printed flat (gear axis perpendicular to build plate). This ensures tooth bending loads are resisted by interlayer adhesion across the full face width. Printing gears on edge (axis parallel to build plate) results in weak planes aligned with the tooth load direction — avoid this.
+
+SURFACE FINISH
+Recommended layer height for production gears: 0.15 mm. Acceptable for prototyping: 0.20 mm. Our test data shows approximately 30% better fatigue life with 0.15 mm layers compared to 0.20 mm at the same load.
+
+This standard is maintained by Kevin Park. Proposed changes must be reviewed and approved by the Engineering Manager.

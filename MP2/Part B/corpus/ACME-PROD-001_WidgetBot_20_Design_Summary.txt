@@ -1,0 +1,37 @@
+DESIGN SUMMARY: WIDGETBOT 2.0
+Document: ACME-PROD-001
+Author: Kevin Park, Lead Mechanical Engineer
+Date: June 15, 2025
+
+PRODUCT OVERVIEW
+WidgetBot 2.0 is a desk toy featuring a gear-driven waving arm mechanism. The user turns a thumb wheel, and the internal gear train converts the rotation into a waving motion via a crank-slider linkage. The product was designed as a trade show giveaway for TechExpo 2025.
+
+GEAR TRAIN DESIGN
+The WidgetBot uses a two-stage spur gear reduction:
+- Stage 1: 14T pinion / 42T gear (ratio 3:1)
+- Stage 2: 16T pinion / 48T gear (ratio 3:1)
+- Total gear ratio: 9:1
+- Module: 1.0 for all gears
+- Pressure angle: 20 degrees
+- Face width: 4 mm minimum (increased from 3 mm after early prototype failures)
+- Material: FilaTech PolyPro PLA+
+- All gears printed flat on build plate at 0.20 mm layer height
+
+PRODUCTION
+Total part count: 11 pieces
+Average assembly time: 7 minutes
+Production run: 300 units for TechExpo 2025
+Material cost per unit: $2.80
+
+LESSONS LEARNED
+1. GEAR NOISE: This was the number-one customer complaint at TechExpo. Root cause: the 14T/42T first stage had a contact ratio of only 1.3, which means there were moments during rotation where only one tooth pair was in contact. This caused audible clicking. For future products, recommend a contact ratio greater than 1.5 for smooth, quiet operation.
+
+2. MINIMUM TOOTH COUNT: The 14-tooth pinion was the minimum that worked reliably for module 1.0 gears in PLA. We prototyped 12-tooth versions, but they showed accelerated wear due to undercutting at the tooth root. 14 teeth should be considered the minimum for PLA gears at module 1.0.
+
+3. BACKLASH: Our initial design used 0.08 mm backlash, which was too tight. Gears bound after thermal cycling (left in a car during TechExpo). Recommend 0.10-0.15 mm backlash for PLA gears to accommodate thermal expansion.
+
+4. PRESS-FIT PINS: Press-fit brass pins (2.5 mm diameter from our component library) worked significantly better than printed pins for pivot joints. Assembly was faster and joint quality was more consistent across the production run.
+
+5. INFILL: 100% infill is critical for all gears. We tested gears at 80% and 60% infill early in development — both showed dramatically reduced tooth strength and unpredictable failure patterns. Non-negotiable for any load-bearing gear.
+
+The WidgetBot 2.0 was generally successful — 300 units produced with a 4% reject rate. The gear noise issue has been addressed in the v3.0 design currently in development.

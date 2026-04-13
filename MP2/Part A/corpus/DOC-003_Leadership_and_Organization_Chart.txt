@@ -1,0 +1,42 @@
+RIDGELINE ENGINEERING PARTNERS — ORGANIZATIONAL STRUCTURE
+Effective January 1, 2025
+
+EXECUTIVE LEADERSHIP
+Managing Partner: Dr. Catherine Marsh, PE, PhD (Portland)
+Partner, Business Development: David Okonkwo, PE (Seattle)
+Chief Financial Officer: Margaret Sullivan, CPA (Portland)
+Director of Engineering: Brian Tanaka, PE (Portland)
+Director of Quality: Lisa Fernandez, PE (Denver)
+
+PRACTICE GROUPS
+
+Structural Analysis Group — Led by Dr. Sarah Hendricks, PE, PhD
+  Headcount: 34 engineers across all offices
+  Focus: bridges, buildings, industrial structures, seismic assessment
+  Key standards: AASHTO LRFD, AISC 360, ACI 318, ASCE 7
+
+Thermal & Fluids Group — Led by Mark Jensen, PE
+  Headcount: 28 engineers
+  Focus: electronics cooling, HVAC optimization, heat exchanger design
+  Key tools: ANSYS Fluent, COMSOL Multiphysics, FloTHERM
+
+Mechanical Design Group — Led by Angela Cruz, PE
+  Headcount: 31 engineers
+  Focus: product design, mechanism design, tolerance analysis, DFM
+  Key tools: SolidWorks, Creo, GD&T per ASME Y14.5-2018
+
+Prototype & Testing Group — Led by Ryan Cho, PE
+  Headcount: 18 engineers and technicians
+  Focus: rapid prototyping, environmental testing, validation
+  Facilities: 4,200 sq ft test lab in Portland, 1,800 sq ft in Denver
+
+Project Management Office — Led by Karen Weatherby, PMP
+  Headcount: 12 project managers and coordinators
+  Tools: Microsoft Project, Jira, SharePoint
+
+OFFICE LOCATIONS
+Portland HQ: 2100 NW Flanders Street, Suite 400, Portland, OR 97210
+Seattle: 3847 Leary Way NW, 3rd/4th Floor, Seattle, WA 98107
+Denver: 1550 Wewatta Street, Suite 200, Denver, CO 80202
+
+Total firm headcount as of January 2025: 138 engineers and technical staff, plus 27 administrative and support personnel.

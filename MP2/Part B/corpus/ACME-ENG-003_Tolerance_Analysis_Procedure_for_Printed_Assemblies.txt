@@ -1,0 +1,54 @@
+TOLERANCE ANALYSIS PROCEDURE FOR 3D PRINTED ASSEMBLIES
+Document: ACME-ENG-003
+Author: Dr. Elena Vasquez, Test Engineering
+Date: November 5, 2025
+
+PURPOSE
+This document establishes ACME's procedure for performing tolerance stack-up analyses on assemblies made from FDM 3D printed parts.
+
+METHOD SELECTION
+Two methods are available. Choose based on application:
+
+1. WORST-CASE ANALYSIS
+Sum all tolerances at their extremes. Every dimension is at its maximum or minimum simultaneously.
+Use for: safety-critical dimensions, prototype validation, small production runs (under 50 units).
+Advantage: guarantees all assemblies will work.
+Disadvantage: overly conservative for large runs.
+
+2. STATISTICAL (RSS) METHOD
+Root Sum of Squares: total variation = sqrt(sum of individual variations squared). Assumes each dimension varies independently with a normal distribution.
+Use for: production runs over 50 units where statistical behavior is reliable.
+Advantage: tighter predicted assembly variation, allowing looser individual part tolerances.
+Disadvantage: a small percentage of assemblies may fall outside the predicted range.
+
+PROCESS CAPABILITY — PRUSA MK4S
+Our measured process capability on calibrated Prusa MK4S printers:
+- Dimensions > 10 mm: Cp = 1.2 (within a +/-0.15 mm tolerance band at 3-sigma)
+- Dimensions < 10 mm: Cp = 0.9 (tighter tolerance needed, or post-processing required to hold tolerance)
+These Cp values are based on SPC data collected over 6 months of production printing.
+
+EXAMPLE: GEAR MESH CENTER DISTANCE
+This is the most common tolerance stack-up for our gear-driven products.
+
+Given:
+- Pinion pitch diameter: 14.0 mm (+/-0.15 mm)
+- Gear pitch diameter: 42.0 mm (+/-0.20 mm)
+- Housing bore spacing: 28.0 mm (+/-0.15 mm)
+
+Nominal center distance = (14.0 + 42.0) / 2 = 28.0 mm
+
+Worst-case analysis:
+Maximum center distance = 28.0 + 0.15/2 + 0.20/2 + 0.15 = 28.325 mm
+Minimum center distance = 28.0 - 0.15/2 - 0.20/2 - 0.15 = 27.675 mm
+Total worst-case range: +/-0.325 mm
+
+RSS analysis:
+Sigma_total = sqrt((0.075)^2 + (0.10)^2 + (0.15)^2) = 0.194 mm
+3-sigma range: +/-0.29 mm
+Center distance varies from 27.71 to 28.29 mm
+
+IMPACT ON GEAR MESH
+Rule of thumb for 20-degree pressure angle spur gears: 0.50 mm variation in center distance changes backlash by approximately 0.25 mm. For the worst-case scenario above, backlash could vary by approximately 0.16 mm from nominal — still within our acceptable backlash range of 0.10-0.15 mm if the nominal is set correctly.
+
+RECOMMENDATION FOR MINICLAW
+For the MiniClaw gear mesh, the housing bore spacing is the critical dimension. Recommend that the gear cavity be printed as a single part (not assembled from two halves) to eliminate one tolerance contributor. This reduces the stack-up from three contributors to two, significantly improving assembly consistency across a 500-unit production run.

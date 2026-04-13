@@ -1,0 +1,39 @@
+RIDGELINE ENGINEERING PARTNERS — TECHNICAL STANDARDS GUIDE
+Revision 12, Updated September 2024
+Maintained by: Lisa Fernandez, PE, Director of Quality
+
+This document lists the primary technical standards referenced across Ridgeline's practice areas. Engineers must use the editions listed below unless a client contract specifies otherwise. Copies of all listed standards are available in the firm's digital standards library (SharePoint > Technical Resources > Standards Library).
+
+STRUCTURAL ANALYSIS
+- AASHTO LRFD Bridge Design Specifications, 9th Edition (2020)
+- AASHTO Manual for Bridge Evaluation, 3rd Edition (2018)
+- AISC 360-22: Specification for Structural Steel Buildings
+- ACI 318-19: Building Code Requirements for Structural Concrete
+- ASCE 7-22: Minimum Design Loads for Buildings
+- AWS D1.1/D1.1M-2020: Structural Welding Code — Steel
+
+THERMAL AND FLUID ANALYSIS
+- ASHRAE Standard 90.1-2019: Energy Standard for Buildings
+- ASHRAE Handbook — Fundamentals (2021 edition)
+- IPC-2152: Standard for Determining Current-Carrying Capacity in PCBs
+- JEDEC JESD51-14: Transient Dual Interface Test Method
+
+MECHANICAL DESIGN
+- ASME Y14.5-2018: Dimensioning and Tolerancing
+- ASME Y14.100-2017: Engineering Drawing Practices
+- ISO 2768-1:1989: General Tolerances (linear and angular)
+- ISO 286-1:2010: ISO System of Limits and Fits
+
+MEDICAL DEVICES
+- ISO 13485:2016: Quality Management Systems for Medical Devices
+- ISO 14971:2019: Application of Risk Management to Medical Devices
+- IEC 60601-1: Medical Electrical Equipment — General Requirements
+- ISO 10993 series: Biological Evaluation of Medical Devices
+
+QUALITY AND TESTING
+- ISO 9001:2015: Quality Management Systems — Requirements
+- ASTM E8/E8M: Standard Test Methods for Tension Testing of Metals
+- ASTM D638: Standard Test Method for Tensile Properties of Plastics
+- IEC 60529: Degrees of Protection Provided by Enclosures (IP Code)
+
+Engineers are responsible for verifying that the applicable edition of any standard has not been superseded before beginning analysis. The Quality Director distributes quarterly updates on new standard editions.

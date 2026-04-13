@@ -1,0 +1,122 @@
+[
+  {
+    "filename": "ACME-MFG-001_Print_Shop_Capabilities_Standards.txt",
+    "id": "ACME-MFG-001",
+    "title": "Print Shop Capabilities & Standards",
+    "type": "manufacturing",
+    "date": "2026-01-15",
+    "author": "Maria Santos, Fab Team Lead"
+  },
+  {
+    "filename": "ACME-MFG-002_FilaTech_PolyPro_PLA_Technical_Summary.txt",
+    "id": "ACME-MFG-002",
+    "title": "FilaTech PolyPro PLA+ Technical Summary",
+    "type": "manufacturing",
+    "date": "2025-11-20",
+    "author": "Ryan Cooper, Materials Engineering"
+  },
+  {
+    "filename": "ACME-MFG-003_3D_Printed_Gear_Test_Report_WidgetBot_20_Project.txt",
+    "id": "ACME-MFG-003",
+    "title": "3D Printed Gear Test Report \u2014 WidgetBot 2.0 Project",
+    "type": "manufacturing",
+    "date": "2025-08-12",
+    "author": "Dr. Elena Vasquez, Test Engineering"
+  },
+  {
+    "filename": "ACME-MFG-004_Assembly_Line_Guidelines_for_3D_Printed_Products.txt",
+    "id": "ACME-MFG-004",
+    "title": "Assembly Line Guidelines for 3D Printed Products",
+    "type": "manufacturing",
+    "date": "2025-12-01",
+    "author": "Maria Santos, Fab Team Lead"
+  },
+  {
+    "filename": "ACME-PROD-001_WidgetBot_20_Design_Summary.txt",
+    "id": "ACME-PROD-001",
+    "title": "WidgetBot 2.0 Design Summary",
+    "type": "product",
+    "date": "2025-06-15",
+    "author": "Kevin Park, Lead Mechanical Engineer"
+  },
+  {
+    "filename": "ACME-PROD-002_GripperBot_Product_Specification.txt",
+    "id": "ACME-PROD-002",
+    "title": "GripperBot Product Specification",
+    "type": "product",
+    "date": "2025-03-20",
+    "author": "Lisa Chang, Product Engineering Manager"
+  },
+  {
+    "filename": "ACME-PROD-003_Component_Library_Catalog_Q1_2026.txt",
+    "id": "ACME-PROD-003",
+    "title": "Component Library Catalog \u2014 Q1 2026",
+    "type": "product",
+    "date": "2026-01-05",
+    "author": "Supply Chain Team"
+  },
+  {
+    "filename": "ACME-BIZ-001_RobotExpo_2026_Marketing_Brief.txt",
+    "id": "ACME-BIZ-001",
+    "title": "RobotExpo 2026 Marketing Brief",
+    "type": "business",
+    "date": "2026-02-10",
+    "author": "Sarah Kim, Marketing Director"
+  },
+  {
+    "filename": "ACME-BIZ-002_RobotExpo_2026_Logistics_Memo.txt",
+    "id": "ACME-BIZ-002",
+    "title": "RobotExpo 2026 Logistics Memo",
+    "type": "business",
+    "date": "2026-02-28",
+    "author": "Tom Bradley, Operations Manager"
+  },
+  {
+    "filename": "ACME-BIZ-003_Q1_2026_Engineering_Status_Report.txt",
+    "id": "ACME-BIZ-003",
+    "title": "Q1 2026 Engineering Status Report",
+    "type": "business",
+    "date": "2026-03-25",
+    "author": "Jordan Chen, Engineering Manager"
+  },
+  {
+    "filename": "ACME-ENG-001_Gear_Design_Guidelines_ACME_Internal_Standard.txt",
+    "id": "ACME-ENG-001",
+    "title": "Gear Design Guidelines \u2014 ACME Internal Standard",
+    "type": "engineering",
+    "date": "2025-09-10",
+    "author": "Kevin Park, Lead Mechanical Engineer"
+  },
+  {
+    "filename": "ACME-ENG-002_Design_Review_Checklist_Concept_to_Detailed_Design_Gate.txt",
+    "id": "ACME-ENG-002",
+    "title": "Design Review Checklist \u2014 Concept to Detailed Design Gate",
+    "type": "engineering",
+    "date": "2025-10-15",
+    "author": "Jordan Chen, Engineering Manager"
+  },
+  {
+    "filename": "ACME-ENG-003_Tolerance_Analysis_Procedure_for_Printed_Assemblies.txt",
+    "id": "ACME-ENG-003",
+    "title": "Tolerance Analysis Procedure for Printed Assemblies",
+    "type": "engineering",
+    "date": "2025-11-05",
+    "author": "Dr. Elena Vasquez, Test Engineering"
+  },
+  {
+    "filename": "ACME-VND-001_FilaTech_Email_Bulk_PLA_Pricing_for_RobotExpo_Production.txt",
+    "id": "ACME-VND-001",
+    "title": "FilaTech Email \u2014 Bulk PLA Pricing for RobotExpo Production",
+    "type": "vendor",
+    "date": "2026-03-01",
+    "author": "Jamie Wu, FilaTech Sales (external)"
+  },
+  {
+    "filename": "ACME-VND-002_Hiwonder_BigClaw_Teardown_Notes.txt",
+    "id": "ACME-VND-002",
+    "title": "Hiwonder BigClaw Teardown Notes",
+    "type": "vendor",
+    "date": "2025-12-10",
+    "author": "Kevin Park, Lead Mechanical Engineer"
+  }
+]

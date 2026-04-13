@@ -1,0 +1,27 @@
+RIDGELINE ENGINEERING PARTNERS — QUALITY ASSURANCE PROGRAM
+Document Number: QA-PGM-01, Revision 6
+Effective Date: January 2025
+Quality Director: Lisa Fernandez, PE
+
+1. QUALITY POLICY
+Ridgeline Engineering Partners is committed to delivering engineering services that meet or exceed client requirements, comply with applicable codes and standards, and reflect current best practices in analysis and design. Quality is the responsibility of every employee.
+
+2. QUALITY MANAGEMENT SYSTEM
+The firm's QMS is certified to ISO 9001:2015 by Bureau Veritas. The certification was originally obtained in 2014 and has been maintained continuously through annual surveillance audits. The most recent recertification audit was completed in September 2024 with zero nonconformities.
+
+3. KEY QMS PROCESSES
+
+3.1 Design Control
+All design work follows a controlled process: design input review → analysis/design → independent technical review (per DOC-016) → client review → final deliverable. Changes to approved designs require a formal Design Change Notice (DCN) approved by the PM and reviewing engineer.
+
+3.2 Document Control
+All controlled documents are managed through the firm's SharePoint-based document control system. Documents are numbered, revisioned, and require approval before release. Superseded documents are archived but accessible for reference. The document register currently contains 847 controlled documents.
+
+3.3 Internal Audits
+Internal audits are conducted quarterly by trained internal auditors. Each practice group is audited at least once per year. Audit findings are tracked in the Corrective Action database. In 2024, 14 internal audit findings were recorded; 12 have been closed and 2 are in progress.
+
+3.4 Corrective and Preventive Action (CAPA)
+Nonconformities, client complaints, and audit findings trigger the CAPA process. Root cause analysis using the 5-Why method is required for all CAPAs. In 2024, 8 CAPAs were initiated, with an average closure time of 34 days.
+
+3.5 Management Review
+Senior leadership conducts a formal management review of the QMS semi-annually (June and December). Review inputs include audit results, client feedback (per DOC-015), CAPA status, resource needs, and improvement opportunities. Minutes are retained as controlled records.

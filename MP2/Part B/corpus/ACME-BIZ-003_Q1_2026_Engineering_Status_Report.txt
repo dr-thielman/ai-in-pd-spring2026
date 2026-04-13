@@ -1,0 +1,36 @@
+QUARTERLY ENGINEERING STATUS REPORT — Q1 2026
+Prepared by: Jordan Chen, Engineering Manager
+Distribution: VP Engineering (Diane Foster), Product Leads
+Date: March 25, 2026
+
+ACTIVE PROJECTS
+
+1. WIDGETBOT 3.0
+Status: Detailed design phase
+The v3.0 redesign addresses the gear noise complaints from the v2.0 TechExpo deployment. New gear train uses higher contact ratio geometry (1.6 vs 1.3 in v2.0). Targeting launch at Q3 industry events. Kevin Park is leading design. On track.
+
+2. SERVOGRIP PRO
+Status: Production ramp
+2,000 units shipped in Q1 2026. No major quality issues. Customer feedback positive. Manufacturing yield at 96%. Lisa Chang managing production transition.
+
+3. MINICLAW (Project MC-2026)
+Status: Design phase — research and requirements
+Strategic promotional project with visibility to VP of Engineering Diane Foster. Budget approved: $5,000 for materials and tooling. Engineering design being conducted via external collaboration with University of Washington Bothell ME 493B students. Initial design concepts (gear train and linkage) have been submitted and reviewed. Several promising approaches, but most designs need refinement based on ACME's actual manufacturing capabilities and material data. Research phase underway.
+
+Key risk: Tight timeline to RobotExpo (June 10-12). Fab team needs final files by May 15. Design iterations must be efficient.
+
+Competitive intelligence: The Hiwonder BigClaw was reverse-engineered and measured by Kevin Park's team. Key findings:
+- Actual gear ratio: approximately 4.5:1 (determined from tooth count — 12-tooth pinion driving a 54-tooth gear, single spur stage, not published by Hiwonder)
+- Linkage geometry: 4-bar mechanism with a 32 mm crank arm
+- Construction: hard aluminum alloy, wall thickness 0.8-1.2 mm
+- Note: aluminum allows thinner walls than PLA. Our PLA designs should target 1.5 mm minimum wall thickness.
+
+4. RESEARCH: TPU COMPLIANT GRIPPERS
+Status: Early exploration
+Evaluating TPU filament for compliant gripper fingers. Early printing tests show promise but parameters are not yet optimized for our Prusa fleet. Low priority — parking until Q3.
+
+BUDGET
+Engineering budget on track for Q1. MiniClaw project is within the approved $5,000 allocation. No budget concerns at this time.
+
+Jordan Chen
+Engineering Manager, Gripper Systems Division

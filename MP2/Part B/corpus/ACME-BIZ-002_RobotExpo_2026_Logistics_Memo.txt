@@ -1,0 +1,35 @@
+INTERNAL MEMO
+TO: MiniClaw Project Team
+FROM: Tom Bradley, Operations Manager
+DATE: February 28, 2026
+RE: RobotExpo 2026 Production & Logistics Plan
+
+EVENT DETAILS
+RobotExpo 2026: June 10-12, 2026 at the Seattle Convention Center. ACME booth: #412, 20 x 20 ft corner location (same as last year). Booth setup begins June 9 at 8:00 AM.
+
+PRODUCTION TIMELINE
+Working backward from the event:
+- June 6: All 500 MiniClaw units assembled, QC checked, and packed in poly bags with header cards
+- June 2-6: Final assembly and packing (assembly team: 4 people, 2 days estimated)
+- May 15 - June 1: Production printing (3 weeks of printer time on our fleet of 12 Prusa MK4S machines)
+- May 15: FINAL DESIGN FILES DUE TO FAB TEAM — this is a hard deadline. Maria Santos needs print-ready STL files, print orientation specifications, and a bill of materials by this date. Any delay past May 15 puts the entire production run at risk.
+
+SHIPPING
+No shipping needed — our Seattle facility is 15 minutes from the Convention Center. We will hand-carry the units in labeled bins. Backup: we have a cargo van reserved for June 9.
+
+QUALITY CONTROL
+Quality sampling rate: 1 in 50 units gets a full function test. Full function test includes:
+- Jaw opening and closing through full range of motion
+- Force check: minimum 5 N grip force at 25 mm opening
+- Visual inspection: no visible layer defects, stringing, or color inconsistency on exterior surfaces
+- Logo readability check
+Reject criteria: gears that bind or skip, jaws misaligned by more than 1 mm, visible print defects on exterior surfaces, thumb wheel that is too loose or too tight to turn comfortably.
+We will print 50 extra units (550 total) to account for rejects.
+
+STAFFING
+Booth staff: 3 ACME engineers per shift for live demos. Engineers should be able to explain the gear mechanism and answer technical questions. Marketing will handle branding and lead capture.
+
+Action items: Engineering — get those design files to Maria by May 15. No excuses.
+
+Tom Bradley
+Operations Manager, ACME Robotics

@@ -1,0 +1,48 @@
+COMPETITIVE TEARDOWN: HIWONDER BIGCLAW
+Document: ACME-VND-002 (Internal Use Only)
+Author: Kevin Park, Lead Mechanical Engineer
+Date: December 10, 2025
+
+PURPOSE
+Reverse-engineer and document the Hiwonder BigClaw mechanical gripper to establish a reference baseline for the MiniClaw project.
+
+OVERALL DIMENSIONS & CONSTRUCTION
+- Overall size: 115 x 57 x 69 mm (confirmed, matches published specs)
+- Weight with servo: 162 g
+- Material: hard aluminum alloy, likely 6061-T6 based on color, machining characteristics, and density measurement
+- Wall thickness: 0.8-1.2 mm throughout. This is only possible because aluminum has much higher strength-to-thickness than PLA. Our PLA designs must use at least 1.5 mm walls, probably 2.0 mm in load-bearing areas.
+- Surface finish: anodized black, very clean CNC machining
+
+GEAR TRAIN
+The BigClaw uses a single-stage spur gear reduction:
+- Pinion: 12 teeth
+- Gear: 54 teeth
+- Gear ratio: 54/12 = 4.5:1 (this ratio is not published by Hiwonder — we determined it by counting teeth)
+- Module: approximately 1.5 (measured from tooth dimensions)
+- Face width: 3.5 mm
+- Pressure angle: appears to be standard 20 degrees
+- Gear mesh is well-finished, likely hobbed aluminum then deburred. Very low backlash, smooth operation.
+
+LINKAGE
+The BigClaw uses a 4-bar mechanism to convert gear rotation to jaw displacement:
+- Crank arm (attached to output gear): 32 mm effective length
+- Coupler link: 28 mm
+- Output link (jaw arm): 45 mm
+- Ground link (housing pivot spacing): 38 mm
+- Jaw opening range: 0-86 mm (confirmed)
+
+The linkage geometry provides near-linear jaw displacement versus gear rotation through the middle 60% of travel. At the extremes (near full-open and full-close), there is slight acceleration, which gives a satisfying snap at full close. The mechanical advantage varies from approximately 2.5:1 at mid-travel to 4:1 near full close.
+
+SERVO MOUNT
+Standard servo horn pattern with M3 screw holes. The servo (LDX-335MG, 20 kg-cm stall torque at 7.4V) drives the pinion directly. The servo case is secured to the housing with 4 self-tapping screws.
+
+IMPLICATIONS FOR MINICLAW DESIGN
+1. The 4.5:1 gear ratio is modest — sufficient with a servo but probably too low for comfortable hand-driven operation. For the MiniClaw with a thumb wheel input, a gear ratio of 6:1 to 8:1 would provide better mechanical advantage and a more satisfying feel.
+
+2. Module 1.5 is larger than ideal for a scaled-down PLA version. Module 1.0 is a better fit for our target size — it gives good tooth strength in PLA while keeping the gear envelope compact.
+
+3. The linkage proportions are well-designed and the basic 4-bar topology could be adapted to our scale. The 32 mm crank arm would scale to approximately 25 mm at our 80% target size.
+
+4. Aluminum wall thickness (0.8 mm) will not translate to PLA. Budget for 1.5-2.0 mm walls throughout the PLA housing.
+
+Photos and CAD measurements are on the shared drive under Projects/MiniClaw/Competitive-Analysis/.

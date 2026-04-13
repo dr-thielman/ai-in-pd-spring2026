@@ -1,0 +1,122 @@
+[
+  {
+    "filename": "DOC-001_Company_Overview.txt",
+    "id": "DOC-001",
+    "title": "Company Overview",
+    "type": "corporate"
+  },
+  {
+    "filename": "DOC-002_Seattle_Office_Memo.txt",
+    "id": "DOC-002",
+    "title": "Seattle Office Memo",
+    "type": "corporate"
+  },
+  {
+    "filename": "DOC-003_Leadership_and_Organization_Chart.txt",
+    "id": "DOC-003",
+    "title": "Leadership and Organization Chart",
+    "type": "corporate"
+  },
+  {
+    "filename": "DOC-004_Employee_Handbook_Excerpts_-_Training_and_Development.txt",
+    "id": "DOC-004",
+    "title": "Employee Handbook Excerpts \u2014 Training and Development",
+    "type": "corporate"
+  },
+  {
+    "filename": "DOC-005_Office_Locations_and_Facilities.txt",
+    "id": "DOC-005",
+    "title": "Office Locations and Facilities",
+    "type": "corporate"
+  },
+  {
+    "filename": "DOC-006_Project_Summary_-_Millbrook_County_Bridge_Assessment.txt",
+    "id": "DOC-006",
+    "title": "Project Summary \u2014 Millbrook County Bridge Assessment",
+    "type": "technical"
+  },
+  {
+    "filename": "DOC-007_Project_Summary_-_Cascade_Thermal_Management_Study.txt",
+    "id": "DOC-007",
+    "title": "Project Summary \u2014 Cascade Thermal Management Study",
+    "type": "technical"
+  },
+  {
+    "filename": "DOC-008_Project_Summary_-_Greenfield_Plaza_HVAC_Optimization.txt",
+    "id": "DOC-008",
+    "title": "Project Summary \u2014 Greenfield Plaza HVAC Optimization",
+    "type": "technical"
+  },
+  {
+    "filename": "DOC-009_Project_Summary_-_CardioSense_Medical_Device_Enclosure.txt",
+    "id": "DOC-009",
+    "title": "Project Summary \u2014 CardioSense Medical Device Enclosure",
+    "type": "technical"
+  },
+  {
+    "filename": "DOC-010_Technical_Standards_Reference_Guide.txt",
+    "id": "DOC-010",
+    "title": "Technical Standards Reference Guide",
+    "type": "technical"
+  },
+  {
+    "filename": "DOC-011_Material_Selection_Report_-_Automotive_Suspension_Bracket.txt",
+    "id": "DOC-011",
+    "title": "Material Selection Report \u2014 Automotive Suspension Bracket",
+    "type": "technical"
+  },
+  {
+    "filename": "DOC-012_Vendor_Communication_Policy.txt",
+    "id": "DOC-012",
+    "title": "Vendor Communication Policy",
+    "type": "business"
+  },
+  {
+    "filename": "DOC-013_Proposal_Development_Guidelines.txt",
+    "id": "DOC-013",
+    "title": "Proposal Development Guidelines",
+    "type": "business"
+  },
+  {
+    "filename": "DOC-014_Standard_Billing_Rate_Schedule_-_FY_2025.txt",
+    "id": "DOC-014",
+    "title": "Standard Billing Rate Schedule \u2014 FY 2025",
+    "type": "business"
+  },
+  {
+    "filename": "DOC-015_Client_Satisfaction_Survey_Results_-_2024.txt",
+    "id": "DOC-015",
+    "title": "Client Satisfaction Survey Results \u2014 2024",
+    "type": "business"
+  },
+  {
+    "filename": "DOC-016_Design_Review_Checklist.txt",
+    "id": "DOC-016",
+    "title": "Design Review Checklist",
+    "type": "process"
+  },
+  {
+    "filename": "DOC-017_FEA_Best_Practices_Guide.txt",
+    "id": "DOC-017",
+    "title": "FEA Best Practices Guide",
+    "type": "process"
+  },
+  {
+    "filename": "DOC-018_Tolerance_Analysis_Procedure.txt",
+    "id": "DOC-018",
+    "title": "Tolerance Analysis Procedure",
+    "type": "process"
+  },
+  {
+    "filename": "DOC-019_Prototype_Testing_Protocol.txt",
+    "id": "DOC-019",
+    "title": "Prototype Testing Protocol",
+    "type": "process"
+  },
+  {
+    "filename": "DOC-020_Quality_Assurance_Program_Overview.txt",
+    "id": "DOC-020",
+    "title": "Quality Assurance Program Overview",
+    "type": "process"
+  }
+]

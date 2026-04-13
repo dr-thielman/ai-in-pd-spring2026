@@ -1,0 +1,19 @@
+PROJECT SUMMARY REPORT
+Project: Millbrook County DOT Bridge Load Rating Assessment
+Project Number: REP-2023-047
+Client: Millbrook County Department of Transportation
+Project Manager: Dr. Sarah Hendricks, PE, PhD
+Date Completed: August 2024
+Budget: $285,000 | Actual: $271,400
+
+SCOPE
+Ridgeline was engaged by the Millbrook County DOT to perform a comprehensive load rating assessment of the Cedar Creek Bridge (Bridge No. MC-4412), a three-span continuous steel plate girder bridge constructed in 1987. The bridge carries State Route 26 over Cedar Creek and has an average daily traffic count of 8,400 vehicles.
+
+METHODOLOGY
+The assessment was conducted in accordance with AASHTO LRFD 9th edition bridge design specifications and the AASHTO Manual for Bridge Evaluation (3rd edition). Field inspection included detailed measurement of all structural members, documentation of section loss due to corrosion, and concrete deck condition survey. A three-dimensional finite element model was constructed using CSiBridge software, calibrated against field measurements and a controlled load test using a 72,000 lb test vehicle.
+
+KEY FINDINGS
+The analysis identified the interior girders at the first span as the controlling members. The load rating analysis produced a rating factor of 0.73 for the interior girders under HL-93 loading, which is below the acceptable threshold of 1.0. This deficiency is primarily attributable to 15-18% section loss in the bottom flange at the pier locations due to pack rust between the girder flanges and the bearing stiffeners. Exterior girders rated satisfactorily at 1.12.
+
+RECOMMENDATIONS
+Immediate posting of the bridge for a 15-ton weight restriction is recommended. Ridgeline further recommends targeted steel repairs at the pier locations, estimated at $420,000, which would restore the rating factor above 1.0. A full deck replacement should be programmed within the next 8-10 years based on the deck condition survey results.

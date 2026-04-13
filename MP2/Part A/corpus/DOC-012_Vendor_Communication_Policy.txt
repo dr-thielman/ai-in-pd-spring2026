@@ -1,0 +1,20 @@
+RIDGELINE ENGINEERING PARTNERS — VENDOR COMMUNICATION POLICY
+Policy Number: ADM-2023-008
+Effective Date: March 1, 2023
+Last Reviewed: January 2025
+Policy Owner: Margaret Sullivan, CFO
+
+1. PURPOSE
+This policy establishes guidelines for all communications between Ridgeline staff and external vendors, subcontractors, and material suppliers. Proper vendor communication protects client confidentiality, ensures consistent pricing, and maintains professional standards.
+
+2. AUTHORIZED VENDOR CONTACTS
+Only Project Managers, Practice Group Leads, and Partners are authorized to negotiate pricing, delivery terms, or contract modifications with vendors. Engineers may communicate directly with vendors for technical information exchange (e.g., material data sheets, software support) but must not discuss pricing, project budgets, or client identities without PM approval.
+
+3. APPROVED VENDOR LIST
+Ridgeline maintains an Approved Vendor List (AVL) reviewed annually by the Director of Quality. As of January 2025, the AVL includes 84 approved vendors across categories including materials testing laboratories, prototype fabrication shops, software licensors, and calibration services. New vendors must complete the Vendor Qualification Questionnaire (Form QA-VQ-01) and pass an initial assessment before being added to the AVL.
+
+4. CONFIDENTIALITY
+All vendor communications must comply with the firm's NDA obligations. Client names, project details, and proprietary design information must not be shared with vendors unless a project-specific NDA is in place. Technical drawings shared with fabrication vendors must be marked 'CONFIDENTIAL — RIDGELINE ENGINEERING PARTNERS' and include the appropriate distribution restriction code.
+
+5. PAYMENT TERMS
+Standard payment terms for vendor invoices are Net 30. Exceptions require CFO approval. Vendors offering early payment discounts (e.g., 2/10 Net 30) should be flagged for review by Accounts Payable.

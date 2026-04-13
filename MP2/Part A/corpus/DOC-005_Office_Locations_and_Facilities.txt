@@ -1,0 +1,22 @@
+RIDGELINE ENGINEERING PARTNERS — FACILITIES OVERVIEW
+
+PORTLAND HEADQUARTERS
+Address: 2100 NW Flanders Street, Suite 400, Portland, OR 97210
+Established: 2007 (founding location)
+Staff: 72 engineers, 18 administrative
+Square footage: 14,500 sq ft office space
+The Portland office houses the firm's leadership team, the largest concentration of structural engineers, and the primary prototype and testing laboratory. The 4,200 sq ft test lab includes a 50 kN universal testing machine (Instron 5985), a thermal cycling chamber (-70C to +180C), and a full suite of dimensional metrology equipment including a Zeiss Contura CMM. The office underwent a major renovation in 2021, adding a dedicated FEA computation room with a 128-core analysis cluster.
+
+SEATTLE OFFICE
+Address: 3847 Leary Way NW, 3rd/4th Floor, Seattle, WA 98107
+Established: 2019
+Staff: 47 engineers, 6 administrative
+Square footage: 8,200 sq ft office space
+The Seattle office focuses primarily on medical device engineering and aerospace supplier support. The office includes a small materials testing area with hardness testing and basic tensile testing capability. Proximity to the University of Washington enables active collaboration with faculty in the Mechanical Engineering and Bioengineering departments.
+
+DENVER OFFICE
+Address: 1550 Wewatta Street, Suite 200, Denver, CO 80202
+Established: 2016
+Staff: 19 engineers, 3 administrative
+Square footage: 4,100 sq ft office space
+The Denver office primarily serves energy sector clients in Colorado and Wyoming, specializing in thermal management for power generation equipment and renewable energy installations. The office includes a 1,800 sq ft environmental testing lab with salt spray, UV exposure, and humidity cycling chambers. Director of Quality Lisa Fernandez is based in Denver and oversees the firm's ISO 9001 compliance program.

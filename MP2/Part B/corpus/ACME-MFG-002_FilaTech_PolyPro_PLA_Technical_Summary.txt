@@ -1,0 +1,38 @@
+MATERIAL TECHNICAL SUMMARY
+Material: FilaTech PolyPro PLA+
+Prepared by: Ryan Cooper, Materials Engineering
+Date: November 20, 2025
+
+This document summarizes the mechanical properties and processing parameters for FilaTech PolyPro PLA+, our preferred PLA filament for production parts.
+
+MECHANICAL PROPERTIES (from ACME testing, not manufacturer spec sheet)
+- Tensile strength (bulk, injection-molded specimen): 52 MPa
+- Flexural strength: 78 MPa
+- Elongation at break: 8%
+- Interlayer adhesion strength (tested per our internal protocol, printed at 0.20 mm layer height, 210 C): 28 MPa
+- Density: 1.24 g/cm3
+- Glass transition temperature: 60 C
+
+CRITICAL NOTE ON INTERLAYER ADHESION
+The interlayer adhesion strength of 28 MPa is significantly lower than the bulk tensile strength of 52 MPa. This is the governing failure mode for any printed part where loads act perpendicular to the layer lines — including gear teeth, snap-fit cantilevers, and structural pins printed vertically. When calculating stress in printed parts, use 28 MPa as the allowable stress for interlayer-critical features, NOT the 52 MPa bulk value.
+
+LOT-TO-LOT VARIATION
+We tested 10 lots of PolyPro PLA+ received over the past 18 months. Results:
+- Tensile strength: 52 +/-3 MPa across lots
+- Interlayer adhesion: 28 +/-2 MPa across lots
+- Dimensional consistency: spool diameter 1.75 +/-0.03 mm (within spec)
+The lot-to-lot variation is acceptable for production use. We have not observed any bad lots that would require incoming inspection beyond our standard spot checks.
+
+RECOMMENDED PRINT PARAMETERS
+- Nozzle temperature: 210-220 C (we use 215 C as our standard)
+- Bed temperature: 60 C
+- Print speed: 60 mm/s for structural parts, up to 80 mm/s for non-critical infill
+- Cooling: 100% fan after first layer
+- Infill: 100% for gears and structural features, 20% acceptable for cosmetic or non-load-bearing parts
+
+AVAILABLE COLORS
+Standard stock: Natural White, Jet Black
+Custom colors (3-week lead time from FilaTech): Company Blue (Pantone 2935 C), Signal Orange
+Spool sizes: 1 kg standard, 2.5 kg bulk rolls available on request.
+
+For material questions or to request testing of a new filament, contact Ryan Cooper in Materials Engineering.

@@ -1,0 +1,34 @@
+INTERNAL MEMO
+TO: All Engineering Staff
+FROM: Maria Santos, Fab Team Lead
+DATE: January 15, 2026
+RE: Print Shop Capabilities — Updated Reference
+
+This memo updates our print shop capabilities document for 2026. Please reference this when specifying parts for production or prototyping.
+
+PRINTER FLEET
+We currently operate 12 Prusa MK4S printers. All machines run 0.4 mm nozzles as standard; we have 0.6 mm nozzles available for large structural parts but these require a separate setup. Build volume per machine is 250 x 210 x 220 mm.
+
+MATERIALS
+Our primary production material is PLA (FilaTech PolyPro PLA+). We also stock PETG for functional prototypes that need better impact resistance or heat tolerance, and ABS for legacy projects, though ABS is used rarely due to ventilation requirements in our current shop layout.
+
+LAYER HEIGHTS & RESOLUTION
+Standard layer heights: 0.15 mm for fine detail and cosmetic surfaces, 0.20 mm for standard production runs, and 0.30 mm for rapid prototyping where surface finish is not critical. All production gears should be printed at 0.15 mm or 0.20 mm — never 0.30 mm, as tooth surface quality degrades significantly.
+
+TOLERANCES
+Achievable tolerances on our calibrated machines:
+- General features: +/-0.25 mm
+- Press-fit interfaces: +/-0.15 mm
+- Critical dimensions (with calibration and process control): +/-0.10 mm
+Note that press-fit tolerance of +/-0.15 mm is what we can reliably hold across a production run. For prototype quantities we can sometimes do better, but do not design production parts to tighter than +/-0.15 mm for press-fits.
+
+POST-PROCESSING
+Available post-processing options: light sanding (220-400 grit), acetone vapor smoothing (ABS only), spray paint (primer + color), and UV-cure clear coat for cosmetic parts. For production runs, we prefer to avoid post-processing — design parts to look good as-printed when possible.
+
+TURNAROUND
+Single prototypes: 24-hour turnaround. Batch runs up to 50 units: 1 week. Larger production runs (100+ units): schedule with me directly. For the MiniClaw production run of 500 units, we will need at least 3 weeks of dedicated printer time — plan accordingly.
+
+Contact me with any questions about capabilities or to schedule print time.
+
+Maria Santos
+Fab Team Lead, ACME Robotics
