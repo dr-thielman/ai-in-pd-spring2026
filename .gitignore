@@ -21,3 +21,16 @@ Thumbs.db
 
 # Secrets — never commit
 .env
+
+# Slides — distributed via Canvas
+*.pptx
+~$*.pptx
+
+# Module 2 in-class instructor tooling
+Module_2_in_class/node_modules/
+Module_2_in_class/render_*/
+Module_2_in_class/package*.json
+Module_2_in_class/*.js
+Module_2_in_class/render_slides.py
+Module_2_in_class/qa_deck.py
+Module_2_in_class/session5_instructor_notes.md
