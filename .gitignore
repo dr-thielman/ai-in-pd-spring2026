@@ -56,6 +56,7 @@ Module_3_in_class/qa_deck.py
 Module_3_in_class/**/*_instructor_notes.md
 Module_3_in_class/**/node_modules/
 Module_3_in_class/**/package*.json
+Module_3_in_class/**/render/
 
 # Module 4 in-class instructor tooling
 Module_4_in_class/node_modules/
@@ -65,6 +66,11 @@ Module_4_in_class/*.js
 Module_4_in_class/render_slides.py
 Module_4_in_class/qa_deck.py
 Module_4_in_class/**/*_instructor_notes.md
+Module_4_in_class/**/render/
+
+# Notebook build scripts inside Module folders (instructor-only,
+# parallel to MP*/**/_*.py for the MP build scripts)
+Module_*_in_class/**/build_*.py
 
 # Instructor validation scripts (not student-facing)
 validate_*.py
